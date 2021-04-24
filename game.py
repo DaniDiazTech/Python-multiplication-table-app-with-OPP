@@ -52,6 +52,7 @@ class BaseGame:
         print("\n\n" + self.description.center(self.message_lenght) + "\n")
 
     # Basic run method
+    # Parent method
     def run(self):
         self.print_welcome_message()
         
